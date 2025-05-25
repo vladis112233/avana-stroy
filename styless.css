@@ -19,11 +19,15 @@ body{
 }
 
 .city{
-
+    color: black;
+    font-size: 24px;
+    font-weight: 800;
 }
 
 .phone{
-
+    color: black;
+    font-size: 24px;
+    font-weight: 800;
 }
 
 .img-bigboard{
