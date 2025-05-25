@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    font-family: PT-Roboto;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+
+.logo{
+
+}
+
+.img-logo{
+    max-width: 160px;
+}
+
+.city{
+
+}
+
+.phone{
+
+}
+
+.img-bigboard{
+    max-width: 1200px;
+    width: 100%;
+}
+
+.bigboards1{
+    display: flex;
+    justify-content: center;
+}
+
+.our-services{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.services{
+    max-width: 300px;
+    width: 100%;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.name-services{
+    color: #00a800;
+    font-size: 24px;
+    font-weight: 800;
+}
