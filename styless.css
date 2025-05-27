@@ -87,3 +87,52 @@ body{
     justify-content: flex-start;
 }
 
+.name-of-services{
+    background: url(images/break.png) center;
+}
+
+.box-name-of-services{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.name-services-1{
+    max-width: 169px;
+    height: 113px;
+    width: 100%;
+    background: url(images/img-orange.png) center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #00a800;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.container-name-of-service{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.name-services-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #ff9b28;
+    border-radius: 10px;
+}
+
+.name-services-3{
+    color: #00a800;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.img-name-of-service{
+    max-width: 400px;
+    width: 100%;
+}
