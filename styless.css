@@ -198,3 +198,27 @@ body{
     max-width: 400px;
     width: 100%;
 }
+
+.description{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.img-description{
+    max-width: 700px;
+    border-radius: 20px;
+}
+
+.description-box{
+    max-width: 1300px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.description-text{
+    max-width: 570px;
+}
