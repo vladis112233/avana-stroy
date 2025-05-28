@@ -178,6 +178,7 @@ body{
     justify-content: center;
     gap: 2rem;
     flex-wrap: wrap;
+    margin-bottom: 20px;
 }
 
 .name-services-2{
@@ -186,6 +187,7 @@ body{
     align-items: center;
     border: 2px solid #ff9b28;
     border-radius: 10px;
+    padding: 8px;
 }
 
 .name-services-3{
@@ -221,4 +223,48 @@ body{
 
 .description-text{
     max-width: 570px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+}
+
+.phone-link{
+    color: black;
+    cursor: pointer;
+}
+
+.footer{
+    background: #ff9b28;
+    padding: 10px;
+}
+
+.icon-foot{
+    width: 40px;
+}
+
+.footer-contacts{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+}
+
+.footer-text{
+    color: #00a800;
+    font-size: 26px;
+}
+
+.footer-text2{
+    font-weight: 800;
+    color: #00a800;
+}
+
+.footel-link{
+    color: #00a800;
 }
