@@ -1,11 +1,19 @@
 body{
     margin: 0;
     font-family: PT-Roboto;
+    position: relative;
 }
 
 .header{
     display: flex;
     justify-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: white;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    margin-bottom: 5px;
+
 }
 
 .box-header{
@@ -26,13 +34,13 @@ body{
 }
 
 .city{
-    color: black;
+    color: #00a800;
     font-size: 24px;
     font-weight: 800;
 }
 
 .phone{
-    color: black;
+    color: #ff9b28;
     font-size: 24px;
     font-weight: 800;
 }
@@ -234,7 +242,7 @@ a{
 }
 
 .phone-link{
-    color: black;
+    color: #ff9b28;
     cursor: pointer;
 }
 
