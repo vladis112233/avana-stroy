@@ -121,6 +121,7 @@ body{
     gap: 1rem;
     margin-top: 10px;
     max-width: 1300px;
+    padding: 0 10px;
 }
 
 .services{
@@ -189,6 +190,7 @@ body{
     gap: 2rem;
     flex-wrap: wrap;
     margin-bottom: 20px;
+    padding: 0 10px;
 }
 
 .name-services-2{
@@ -221,6 +223,7 @@ body{
 .img-description{
     max-width: 700px;
     border-radius: 20px;
+    width: 100%;
 }
 
 .description-box{
@@ -229,6 +232,7 @@ body{
     align-items: center;
     flex-wrap: wrap;
     gap: 1.5rem;
+    padding: 0 10px;
 }
 
 .description-text{
@@ -281,4 +285,24 @@ a{
 
 .name-services-name{
     width: 120px;
+}
+
+.phone-size{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 10px;
+    margin-top: 20px;
+}
+
+.city1{
+    color: #00a800;
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.phone1{
+    color: #ff9b28;
+    font-size: 22px;
+    font-weight: 800;
 }
