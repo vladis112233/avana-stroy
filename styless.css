@@ -308,3 +308,76 @@ a{
     font-size: 22px;
     font-weight: 800;
 }
+
+.roof-form-wrapper {
+    /*background: #f7f8f9;*/
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px auto;
+    max-width: 800px;
+    border-radius: 10px;
+    /*box-shadow: 0 14px 28px rgba(0,0,0,0.15), 0 10px 10px rgba(0,0,0,0.12);*/
+}
+
+.roof-form-title {
+    font-size: 28px;
+    color: #00a800;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.roof-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.form-group input {
+    padding: 10px 5px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 2px solid #e88b20;
+    background: transparent;
+    outline: none;
+    box-sizing: border-box;
+    width: 100%;
+    color: #333;
+}
+
+.roof-submit-btn {
+    margin-top: 20px;
+    background-color: #ff9b28;
+    color: #fff;
+    padding: 12px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    /*cursor: pointer;*/
+    transition: background-color 0.3s ease;
+    pointer-events: none;
+    cursor: not-allowed;
+}
+
+.roof-submit-btn:hover {
+    background-color: #e88b20;
+}
+
+.form-group input::placeholder {
+    color: rgba(0, 0, 0, 0.5);
+}
