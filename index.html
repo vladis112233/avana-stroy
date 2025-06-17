@@ -17,7 +17,10 @@
 <!--        <div class="city">Симферополь</div>-->
 <!--        <div class="phone"><a class="phone-link" href="tel:+79785778282">+7 (978) 577-82-82</a></div>-->
         <div class="phone-size">
-            <div class="city1">Симферополь</div>
+            <div class="city1">
+                <a href="#contacts" class="contacts-link">Контакты</a>
+            </div>
+<!--            <div class="city1">Симферополь</div>-->
             <div class="phone1"><a class="phone-link" href="tel:+79785778282">+7 (978) 577-82-82</a></div>
         </div>
 
@@ -26,10 +29,11 @@
         </div>
         <div id="sidebar" class="sidebar">
             <span class="close-sidebar" onclick="toggleSidebar()">&times;</span>
-            <ul>
-                <li><a href="#">Меню 1</a></li>
-                <li><a href="#">Меню 2</a></li>
-                <li><a href="#">Меню 3</a></li>
+            <ul class="sidebar-menu">
+                <li><a href="#about">О нас</a></li>
+                <li><a href="#products">Товар</a></li>
+                <li><a href="#roof-form">Рассчитать кровлю</a></li>
+                <li><a href="#contacts">Контакты</a></li>
             </ul>
         </div>
     </div>
@@ -126,7 +130,7 @@
 
 </div>
 
-<div class="description">
+<div class="description" id="about">
     <div class="description-box">
         <img class="img-description" src="images/description.jpg">
         <div class="description-text">
@@ -179,7 +183,7 @@
 
 </div>
 
-<div class="name-of-services">
+<div class="name-of-services" id="products">
 
     <div class="box-name-of-services">
         <div class="name-services-1" id="uteplitel">
@@ -345,7 +349,7 @@
 <!--            <input type="tel" id="phone" name="phone" required>-->
 <!--        </div>-->
 
-        <div class="form-group">
+        <div class="form-group" id="roof-form">
             <input type="text" id="length" name="length" placeholder="Длина / ширина крыши" required>
         </div>
 
@@ -370,7 +374,7 @@
 </div>
 
 
-<div class="footer">
+<div class="footer"  id="contacts">
     <p class="footer-text"><strong>Контакты</strong></p>
     <div class="footer-contacts">
         <img class="icon-foot" src="images/icon-foot/location2.png">
