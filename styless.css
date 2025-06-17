@@ -381,3 +381,38 @@ a{
 .form-group input::placeholder {
     color: rgba(0, 0, 0, 0.5);
 }
+
+.sidebar-icon {
+    font-size: 28px;
+    cursor: pointer;
+    padding: 10px;
+    color: #00a800;
+    user-select: none;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: -300px;
+    width: 250px;
+    height: 100%;
+    background: #f7f8f9;
+    box-shadow: -2px 0 10px rgba(0,0,0,0.2);
+    transition: right 0.3s ease;
+    padding: 20px;
+    z-index: 1500;
+}
+
+.sidebar.active {
+    right: 0;
+}
+
+.close-sidebar {
+    font-size: 30px;
+    font-weight: bold;
+    color: #ff9b28;
+    cursor: pointer;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
