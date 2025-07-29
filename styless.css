@@ -464,3 +464,22 @@ a{
     max-height: 400px;
     height: 100%;
 }
+
+.icons-photo-brands{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+    padding: 0 10px;
+}
+
+.name-icon{
+    text-align: center;
+    font-size: 32px;
+    color: #007f00;
+}
+
+.icon-brand{
+    max-width: 500px;
+    width: 100%;
+}
