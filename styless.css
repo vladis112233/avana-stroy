@@ -475,8 +475,9 @@ a{
 
 .name-icon{
     text-align: center;
-    font-size: 32px;
-    color: #007f00;
+    color: #00a800;
+    font-size: 24px;
+    font-weight: 800;
 }
 
 .icon-brand{
